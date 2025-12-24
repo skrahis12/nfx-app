@@ -5,7 +5,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/skrahis12/nfx-app.git",
 
   "scripts": {
     "dev": "vite",
