@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+
+
+
+.hide-scroll-line {
+  scrollbar-width: none;
+} 
