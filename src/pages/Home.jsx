@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import React from "react";
 
 function Home() {
   const [show, setshow] = useState(false);
@@ -180,7 +181,7 @@ function Home() {
             onClick={moveleft}
           >
             {" "}
-            <i class="fa-solid fa-angle-right"></i>{" "}
+            <i className="fa-solid fa-angle-right"></i>{" "}
           </button>
         </section>
 
@@ -199,7 +200,7 @@ function Home() {
                 Blu-ray players and more.
               </p>
               <div className="text-3xl text-white text-end">
-                <i class="fa-solid fa-tv"></i>
+                <i className="fa-solid fa-tv"></i>
               </div>
             </div>
             <div className="p-3 bg-gradient-to-r from-gray-700 to-gray-900 rounded-3xl h-45 flex wrap sm:h-50 justify-evenly   flex-col gap-1 sm:w-[50%] md:h-60">
@@ -210,7 +211,7 @@ function Home() {
                 Save your favourites easily and always have something to watch.
               </p>
               <div className="text-3xl text-white text-end">
-                <i class="fa-solid fa-arrow-down"></i>
+                <i className="fa-solid fa-arrow-down"></i>
               </div>
             </div>
           </div>
@@ -224,7 +225,7 @@ function Home() {
                 laptop, and TV.
               </p>
               <div className="text-3xl text-white text-end">
-                <i class="fa-solid fa-eye"></i>
+                <i className="fa-solid fa-eye"></i>
               </div>
             </div>
             <div className="p-3  bg-gradient-to-r from-gray-700 to-gray-900 rounded-3xl flex wrap justify-evenly sm:h-50  flex-col gap-1 h-45 sm:w-[50%] md:h-60">
@@ -236,7 +237,7 @@ function Home() {
                 space made just for them — free with your membership.
               </p>
               <div className="text-3xl text-white text-end">
-                <i class="fa-solid fa-child"></i>
+                <i className="fa-solid fa-child"></i>
               </div>
             </div>
           </div>
@@ -252,7 +253,7 @@ function Home() {
             className="cursor-pointer w-full h-15 rounded bg-neutral-700 flex wrap justify-between items-center px-3 mt-2 text-1xl text-white sm:text-2xl transition ease-in-out hover:bg-neutral-600"
           >
             <h1>What is NETFLIIX ?</h1>
-            <i class="fa-solid fa-plus"></i>
+            <i className="fa-solid fa-plus"></i>
           </div>
 
           {show && (
@@ -276,7 +277,7 @@ function Home() {
             className="w-full h-15 rounded bg-neutral-700 flex wrap justify-between items-center px-3 mt-2 text-1xl text-white sm:text-2xl transition ease-in-out hover:bg-neutral-600"
           >
             <h1 className="">How much does netfliif cost?</h1>
-            <i class="fa-solid fa-plus"></i>
+            <i className="fa-solid fa-plus"></i>
           </div>
 
           {show && (
@@ -300,7 +301,7 @@ function Home() {
             className="w-full h-15 rounded bg-neutral-700 flex wrap justify-between items-center px-3 mt-2 text-1xl text-white sm:text-2xl transition ease-in-out hover:bg-neutral-600"
           >
             <h1 className="">Where i can watch?</h1>
-            <i class="fa-solid fa-plus"></i>
+            <i className="fa-solid fa-plus"></i>
           </div>
 
           {show && (
@@ -325,7 +326,7 @@ function Home() {
             className="w-full h-15 rounded bg-neutral-700 flex wrap justify-between items-center px-3 mt-2 text-1xl text-white sm:text-2xl transition ease-in-out hover:bg-neutral-600"
           >
             <h1 className="">How do i cancel?</h1>
-            <i class="fa-solid fa-plus"></i>
+            <i className="fa-solid fa-plus"></i>
           </div>
 
           {show && (
@@ -343,7 +344,7 @@ function Home() {
             className="w-full h-15 rounded bg-neutral-700 flex wrap justify-between items-center px-3 mt-2 text-1xl text-white sm:text-2xl transition ease-in-out hover:bg-neutral-600"
           >
             <h1 className="">What can i watch on netfliix</h1>
-            <i class="fa-solid fa-plus"></i>
+            <i className="fa-solid fa-plus"></i>
           </div>
 
           {show && (
@@ -361,7 +362,7 @@ function Home() {
             className="w-full h-15 rounded bg-neutral-700 flex wrap justify-between items-center px-3 mt-2 text-1xl text-white sm:text-2xl transition ease-in-out hover:bg-neutral-600"
           >
             <h1 className="">Is netfliix good for kids</h1>
-            <i class="fa-solid fa-plus"></i>
+            <i className="fa-solid fa-plus"></i>
           </div>
 
           {show && (
@@ -392,7 +393,7 @@ function Home() {
               placeholder="Email address"
             />
             <button className="p-3 md:w-55  md:p-3 md:text-1xl lg:text-2xl bg-red-600 w-40 font-bold rounded">
-              Get Started <i class="fa-solid fa-angle-right"></i>
+              Get Started <i className="fa-solid fa-angle-right"></i>
             </button>
           </div>
         </section>
