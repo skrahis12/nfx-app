@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [tailwindcss(),],
   base:"/nflix/",
   build:{
-    outDir:"docs"
+    outDir:"docs",
   }
 
 })
